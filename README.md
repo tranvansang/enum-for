@@ -17,6 +17,14 @@ import {getAllEnumKeys, getAllEnumValues} from 'enum-for'
 - `getAllEnumKeys` returns all keys of the enum object
 - `getAllEnumValues` returns all values of the enum object
 
+## Source code
+The source code of the project is very simple (2 LOCs). You can copy and use it directly in your project.
+
+```javascript
+exports.getAllEnumKeys = enumType => Object.keys(enumType).filter(key => isNaN(Number(key)))
+exports.getAllEnumValues = enumType => exports.getAllEnumKeys(enumType).map(key => enumType[key])
+```
+
 ## Example
 
 ```typescript
