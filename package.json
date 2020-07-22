@@ -1,6 +1,6 @@
 {
   "name": "enum-for",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An utility library to get all values/keys of a Typescript enum",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/enum-for.git",
