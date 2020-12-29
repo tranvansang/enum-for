@@ -1,3 +1,3 @@
-export declare const getAllEnumKeys: (enumType: any) => string[];
-export declare const getAllEnumValues: (enumType: any) => Array<number | string>;
-export declare const getAllEnumEntries: (enumType: any) => Array<[string, number | string]>;
+export declare function getAllEnumKeys<T>(enumType: T): Array<keyof T>;
+export declare function getAllEnumValues<T>(enumType: T): Array<T[keyof T]>;
+export declare function getAllEnumEntries<T>(enumType: T): Array<[keyof T, T[keyof T]]>;
