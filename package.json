@@ -1,6 +1,6 @@
 {
   "name": "enum-for",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An utility library to get all values/keys of a Typescript enum",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/enum-for.git",
@@ -8,11 +8,11 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/preset-typescript": "^7.10.1",
-    "@types/node": "^14.0.9",
-    "babel-jest": "^26.0.1",
-    "jest": "^26.0.1",
-    "ts-node": "^8.10.2"
+    "@babel/core": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/node": "^14.14.16",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1"
   }
 }
