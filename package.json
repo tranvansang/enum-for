@@ -6,7 +6,6 @@
   "repository": "https://github.com/tranvansang/enum-for.git",
   "author": "Tran Sang",
   "license": "MIT",
-  "private": false,
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
