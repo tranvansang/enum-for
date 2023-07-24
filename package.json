@@ -1,8 +1,20 @@
 {
   "name": "enum-for",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An utility library to get all values/keys of a Typescript enum",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts"
+  ],
   "repository": "https://github.com/tranvansang/enum-for.git",
   "author": "Tran Sang",
   "license": "MIT",
