@@ -16,7 +16,7 @@
     "index.d.mts"
   ],
   "repository": "https://github.com/tranvansang/enum-for.git",
-  "author": "Tran Sang",
+  "author": "Sang Tran <t@sang.jp>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",
